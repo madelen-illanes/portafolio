@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ArtistModel } from '@core/models/artist.model';
 import { TrackModel } from '@core/models/tracks.model';
 import * as dataRaw from '../../../data/tracks.json'
+
 @Component({
   selector: 'app-play-list-body',
   templateUrl: './play-list-body.component.html',
@@ -10,19 +11,19 @@ import * as dataRaw from '../../../data/tracks.json'
 export class PlayListBodyComponent implements OnInit {
 tracks: TrackModel [] =[]
 skill: ArtistModel []= []
-optionSort:{property:string | null, order:string}={property:null, order: 'asc'}
+/*optionSort:{property:string | null, order:string}={property:null, order: 'asc'}*/
   constructor() { }
 
   ngOnInit(): void {
     const {data}: any = (dataRaw as any).default
     this.tracks = data;
   }
-changeSort(property:string):void{
+/*changeSort(property:string):void{
 const {order}= this.optionSort
 this.optionSort = {
   property,
   order: order  === 'asc' ? 'desc' : 'asc'
 
 }
-}
+}*/
 }

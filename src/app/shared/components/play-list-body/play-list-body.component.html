@@ -1,10 +1,11 @@
 <div class="play-list-body">
     <ul class="play-list-table-header">
-        <li (click)="changeSort('name')">Titulo</li>
-        <li (click)="changeSort('album')">Detalle</li>    
+        <li >Titulo</li>
+        <li >Detalle</li>    
         <li><i class="uil uil-clock-eight"></i></li>
     </ul>
-    <ul class="play-list-rows" *ngFor="let track of tracks |orderList:optionSort.property:optionSort.order">
+    <ul class="play-list-rows" *ngFor="let track of tracks">
+      
         <li class="track-name">
             <ng-container *ngTemplateOutlet="coverSection;context:{track:track}"></ng-container>
         </li>

@@ -1,6 +1,8 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA} from "@angular/core";
 
 import { PlayListBodyComponent } from './play-list-body.component';
+
 
 describe('PlayListBodyComponent', () => {
   let component: PlayListBodyComponent;
@@ -8,7 +10,8 @@ describe('PlayListBodyComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PlayListBodyComponent ]
+      declarations: [ PlayListBodyComponent ],
+      schemas: [NO_ERRORS_SCHEMA, CUSTOM_ELEMENTS_SCHEMA],
     })
     .compileComponents();
 
@@ -21,3 +24,5 @@ describe('PlayListBodyComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
+

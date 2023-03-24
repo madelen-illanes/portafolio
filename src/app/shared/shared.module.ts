@@ -9,6 +9,7 @@ import { PlayListHeaderComponent } from './components/play-list-header/play-list
 import { PlayListBodyComponent } from './components/play-list-body/play-list-body.component';
 import { RouterModule } from '@angular/router';
 import { OrderListPipe } from './pipe/order-list.pipe';
+import { SkillCardComponent } from './components/skill-card/skill-card.component';
 
 
 
@@ -21,7 +22,8 @@ import { OrderListPipe } from './pipe/order-list.pipe';
     SectionGenericComponent,
     PlayListHeaderComponent,
     PlayListBodyComponent,
-    OrderListPipe
+    OrderListPipe,
+    SkillCardComponent
   ],
   imports: [
     CommonModule,
@@ -35,7 +37,8 @@ exports:[
   SectionGenericComponent,
   PlayListHeaderComponent,
   PlayListBodyComponent,
-  OrderListPipe
+  OrderListPipe,
+  SkillCardComponent
 ]
 })
 export class SharedModule { }
