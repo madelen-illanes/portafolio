@@ -26,12 +26,11 @@ mainMenu: {
         name: 'About me',
         icon: 'uil uil-search',
         router: ['/', 'history'],
-        query: { hola: 'mundo' }
       },
       {
         name: 'Proyectos',
         icon: 'uil uil-chart',
-        router: ['/', 'tracks']
+        router: ['/', 'projects']
       },
       {
         name: 'Skills',

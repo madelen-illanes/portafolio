@@ -24,7 +24,7 @@
         "src/app/core/*"
       ],
       "@modules/*":[
-        "src/app/modules/*"
+        "src/app/views/*"
       ],
       "@shared/*":[
         "src/app/shared/*"
