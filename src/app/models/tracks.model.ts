@@ -1,4 +1,3 @@
-import { ArtistModel } from "./artist.model";
 
 export interface TrackModel {
     name: string;
@@ -6,5 +5,5 @@ export interface TrackModel {
     cover: string;
     url: string;
     _id: string | number
-    artist?: ArtistModel;
+
 }

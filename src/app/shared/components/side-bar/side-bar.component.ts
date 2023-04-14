@@ -40,31 +40,6 @@ mainMenu: {
     
     ]
 
-    this.mainMenu.accessLink = [
-     /* {
-        name: 'Skills',
-        icon: 'uil-heart-medical',
-        router: ['/', 'history'],
-      }*/
-    ]
-    this.customOptions = [
-       /* {
-        name: ' º1',
-        router: ['/']
-      },
-      {
-        name: ' º2',
-        router: ['/']
-      },
-      {
-        name: ' º3',
-        router: ['/']
-      },
-      {
-        name: 'º4',
-        router: ['/']
-      }*/
-    ]
   }
 
 }

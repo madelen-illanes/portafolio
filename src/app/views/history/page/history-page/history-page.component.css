@@ -7,7 +7,7 @@
 h2 {
   text-align: center;
   padding-top: 50px;
-  font-size: 1rem;
+  font-size: 0.5rem;
 }
 
 .slider-frame {
@@ -24,19 +24,20 @@ h2 {
 
 .content{
     text-align:justify;
-    padding: 50px 30px;
-    font-size: 1.5rem;
+    padding: 5px 5px;
+    font-size: 0.6rem;
     background-color: var(--color-7);
-    margin: 20px 300px;
+    margin: 0px 20px 0px 0px;
     border-radius: 10% 0 10%;
     
  }
+
 }
-@media(max-width:767px){
+@media(min-width:576px) and (max-width:767px){
   h2 {
     text-align: center;
     padding-top: 50px;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   
   .slider-frame {
@@ -46,7 +47,7 @@ h2 {
   }
   
   .slider-frame img {
-     width: 100%;
+     width: 75%;
      border-radius: 50%;
      margin-bottom: 40px; 
   }
@@ -54,14 +55,14 @@ h2 {
   .content{
       text-align:justify;
       padding: 50px 30px;
-      font-size: 1.5rem;
+      font-size: 1rem;
       background-color: var(--color-7);
-      margin: 20px 300px;
+      margin: 0px 40px;
       border-radius: 10% 0 10%;
       
    }
 }
-  @media(max-width:991px){
+  @media(min-width:768px) and (max-width:991px){
   h2 {
     text-align: center;
     padding-top: 50px;
@@ -89,6 +90,8 @@ h2 {
       border-radius: 10% 0 10%;
       
    }
+
+   
   }
   @media(min-width:992px){
     h2 {
