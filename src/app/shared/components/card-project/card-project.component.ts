@@ -6,7 +6,7 @@ import { TrackModel } from 'src/app/models/tracks.model';
 @Component({
   selector: 'app-card-project',
   templateUrl: './card-project.component.html',
-  styleUrls: ['./card-project.component.css']
+  styleUrls: ['./card-project.component.scss']
 })
 export class CardProjectComponent implements OnInit {
 @Input () mode: 'small' | 'big' = 'small';

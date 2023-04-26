@@ -5,7 +5,7 @@ import { TrackModel } from 'src/app/models/tracks.model';
 @Component({
   selector: 'app-section-generic',
   templateUrl: './section-generic.component.html',
-  styleUrls: ['./section-generic.component.css']
+  styleUrls: ['./section-generic.component.scss']
 })
 export class SectionGenericComponent implements OnInit {
 @Input () title : string = ''

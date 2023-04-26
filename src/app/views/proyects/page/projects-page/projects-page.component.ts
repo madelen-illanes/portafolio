@@ -6,7 +6,7 @@ import * as dataRaw from '../../../../data/tracks.json'
 @Component({
   selector: 'app-projects-page',
   templateUrl: './projects-page.component.html',
-  styleUrls: ['./projects-page.component.css']
+  styleUrls: ['./projects-page.component.scss']
 })
 export class ProjectsPageComponent implements OnInit {
   mockTracksList: Array<TrackModel> =[

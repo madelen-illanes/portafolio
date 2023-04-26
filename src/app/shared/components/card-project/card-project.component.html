@@ -1,17 +1,17 @@
-<div *ngIf="mode === 'small'" class="card-player player-small">
+<div *ngIf="mode === 'small'" class="card card--size-small">
   <img appImgBroken [src]="track.cover" [alt]="track.name" class="cover" />
-  <div class="content-player">
+  <div class="card__elem">
     {{ track.name }}
   </div>
 </div>
 
 <!-- Diseño (big)-->
-<div *ngIf="mode === 'big'" class="card-player player-big">
+<div *ngIf="mode === 'big'" class="card card--size-big">
   <img appImgBroken [src]="track.cover" alt="" class="cover" />
 
-  <div class="content-player">
-    <div class="title-track">{{ track.name }}</div>
-    <div class="sub-title-track">{{ track.name }}</div>
+  <div class="card__elem">
+    <div class="card__elem--title">{{ track.name }}</div>
+    <div class="card__elem--subtitle">{{ track.name }}</div>
   </div>
 
 </div>
