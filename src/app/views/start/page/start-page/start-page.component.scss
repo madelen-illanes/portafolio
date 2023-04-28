@@ -1,3 +1,12 @@
+.slider {
+  &__frame {
+    width: 1280px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden;
+  }
+}
+
 h2 {
   text-align: center;
   padding-top: 50px;
@@ -8,13 +17,6 @@ h3 {
   text-align: center;
   padding-top: 50px;
   font-size: 1.5rem;
-}
-
-.slider__frame {
-  width: 1280px;
-  height: auto;
-  margin: 50px auto 0;
-  overflow: hidden;
 }
 
 .slider__frame ul {
